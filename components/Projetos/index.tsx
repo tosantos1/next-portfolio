@@ -1,15 +1,43 @@
-import { Flex, Heading, HStack, VStack, Image, Text } from "@chakra-ui/react";
+import { Flex, Heading, HStack, VStack, Image, Text, IconButton, Link, Spacer } from "@chakra-ui/react";
+import { FiGithub, FiYoutube, FiLink2 } from 'react-icons/fi'
 
 
 export function Projetos() {
     return (
         <>
             <Flex direction="column" m="auto" w="100%">
-                <Heading px={14} mt={2} align="start">
-                    Projetos
-                </Heading>
+                <HStack px={14}>
+                    <Heading mt={2} align="start" display="flex">
+                        <Image src="images/dtmoney.png" mr={6} />
+                        dt money - Ignite
 
-
+                    </Heading>
+                    <Spacer />
+                    <Link href="https://dtmoney-ignite.vercel.app/">
+                        <IconButton
+                            bg="#5429CC"
+                            aria-label="default"
+                            _hover={{ opacity: 0.8 }}
+                            icon={<FiLink2 />}
+                        />
+                    </Link>
+                    <Link href="https://github.com/tosantos1/dtmoney-ignite/tree/master">
+                        <IconButton
+                            bg="#333"
+                            aria-label="Github"
+                            _hover={{ opacity: 0.8 }}
+                            icon={<FiGithub />}
+                        />
+                    </Link>
+                    <Link href="https://github.com/tosantos1/dtmoney-ignite/tree/master">
+                        <IconButton
+                            colorScheme="red"
+                            aria-label="Youtube"
+                            _hover={{ opacity: 0.8 }}
+                            icon={<FiYoutube />}
+                        />
+                    </Link>
+                </HStack>
 
                 <Flex justify="space-between" align="center" p={14} >
                     <Image src="images/p1.png" alt="Projeto 1" w="400px" h="400px" borderRadius="8" />
