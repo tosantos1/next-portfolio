@@ -5,18 +5,18 @@ export function Projetos() {
     return (
         <>
             <Flex direction="column" m="auto" w="100%">
-                <Heading align="center">
+                <Heading px={14} mt={2} align="start">
                     Projetos
                 </Heading>
 
 
 
-                <Flex justify="space-between" align="center">
-                    <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" w="300px" h="300px" />
+                <Flex justify="space-between" align="center" p={14} >
+                    <Image src="images/p1.png" alt="Projeto 1" w="400px" h="400px" borderRadius="8" />
                     <VStack w="800px" mr="0">
                         <HStack >
-                            <VStack bg="whiteAlpha.500" p="8" alignItems="left">
-                                <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" w="50px" h="50px" />
+                            <VStack p="8" alignItems="left">
+                                <Image src="images/react.png" alt="ReactJS Logo" w="50px" h="45px" />
                                 <Text>
                                     lorem ipsum
                                 </Text>
@@ -24,8 +24,8 @@ export function Projetos() {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, magni eum
                                 </Text>
                             </VStack>
-                            <VStack bg="whiteAlpha.500" p="8" alignItems="left">
-                                <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" w="50px" h="50px" />
+                            <VStack p="8" alignItems="left">
+                                <Image src="images/sc.png" alt="Segun Adebayo" w="50px" h="50px" />
                                 <Text>
                                     lorem ipsum
                                 </Text>
@@ -35,8 +35,8 @@ export function Projetos() {
                             </VStack>
                         </HStack>
                         <HStack>
-                            <VStack bg="whiteAlpha.500" p="8" alignItems="left">
-                                <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" w="50px" h="50px" />
+                            <VStack p="8" alignItems="left">
+                                <Image src="images/miragejs.png" alt="Segun Adebayo" w="50px" h="50px" />
                                 <Text>
                                     lorem ipsum
                                 </Text>
@@ -44,8 +44,8 @@ export function Projetos() {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, magni eum
                                 </Text>
                             </VStack>
-                            <VStack bg="whiteAlpha.500" p="8" alignItems="left">
-                                <Image src="https://bit.ly/sage-adebayo" alt="Segun Adebayo" w="50px" h="50px" />
+                            <VStack p="8" alignItems="left">
+                                <Image src="images/axios.svg" alt="Segun Adebayo" w="50px" h="50px" />
                                 <Text>
                                     lorem ipsum
                                 </Text>

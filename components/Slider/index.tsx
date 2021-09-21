@@ -19,7 +19,7 @@ export default function Slider() {
                 onSlideChange={() => console.log('slide change')}
             >
                 <SwiperSlide>
-                    <Flex bg="brown">
+                    <Flex>
                         <Projetos />
                     </Flex>
                 </SwiperSlide>
