@@ -17,7 +17,9 @@ export default function Hero() {
                         <p>Tiago Oliveira</p>
                         <p>tiagolivesan@outlook.com</p>
                         <HStack>
-                            <Link href="https://github.com/tosantos1">
+                            <Link
+                                target="_blank"
+                                href="https://github.com/tosantos1">
                                 <IconButton
                                     bg="#333"
                                     aria-label="Github"
@@ -25,7 +27,9 @@ export default function Hero() {
                                     icon={<FiGithub />}
                                 />
                             </Link>
-                            <Link href="https://www.linkedin.com/in/tiagolivesan/">
+                            <Link
+                                target="_blank"
+                                href="https://www.linkedin.com/in/tiagolivesan/">
                                 <IconButton
                                     colorScheme="linkedin"
                                     aria-label="Linkedin"

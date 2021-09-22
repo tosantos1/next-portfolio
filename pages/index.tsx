@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/layout";
+import { Flex, Heading } from "@chakra-ui/layout";
 import Hero from "../components/Hero";
 import Slider from "../components/Slider";
 

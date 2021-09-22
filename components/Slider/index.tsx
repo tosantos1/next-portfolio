@@ -4,7 +4,7 @@ SwiperCore.use([Navigation, Pagination, A11y]);
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Flex } from "@chakra-ui/react";
-import { Projetos } from '../Projetos';
+import { Projetos1 } from '../Projetos/Projeto1';
 
 
 export default function Slider() {
@@ -20,17 +20,17 @@ export default function Slider() {
             >
                 <SwiperSlide>
                     <Flex>
-                        <Projetos />
+                        <Projetos1 />
                     </Flex>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Flex bg="greenyellow">
-                        <Projetos />
+                        <Projetos1 />
                     </Flex>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Flex bg="blackAlpha.700">
-                        <Projetos />
+                        <Projetos1 />
                     </Flex>
                 </SwiperSlide>
             </Swiper>
