@@ -12,7 +12,7 @@ export default function Hero() {
                 <Heading size="lg" p={2}>Bem vindos 👊</Heading>
                 <Heading size="xl" textAlign="center" maxW="650px">Sou estudante de engenharia da computação, tenho pratica em Front End</Heading>
                 <HStack p={8}>
-                    <Avatar boxSize="125px" mr={4} name="Lucas Calixto" src="https://github.com/tosantos1.png" />
+                    <Avatar boxSize="125px" mr={4} name="Tiago Oliveira" src="https://github.com/tosantos1.png" />
                     <VStack align="flex-start">
                         <p>Tiago Oliveira</p>
                         <p>tiagolivesan@outlook.com</p>

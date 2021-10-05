@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { Flex } from "@chakra-ui/react";
 import { Projetos1 } from '../Projetos/Projeto1';
+import { Projetos2 } from '../Projetos/Projeto2';
 
 
 export default function Slider() {
@@ -24,8 +25,8 @@ export default function Slider() {
                     </Flex>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Flex bg="greenyellow">
-                        <Projetos1 />
+                    <Flex>
+                        <Projetos2 />
                     </Flex>
                 </SwiperSlide>
                 <SwiperSlide>
